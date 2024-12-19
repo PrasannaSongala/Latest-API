@@ -1,0 +1,18 @@
+{
+    "database": {
+      "host": "your_production_db_host",
+      "port": 3306,
+      "user": "your_prod_user",
+      "password": "your_prod_password",
+      "database": "srikanya"
+    },
+    "server": {
+      "port": 8080,
+      "env": "production"
+    },
+    "jwt": {
+      "secret": "your_prod_secret_key",
+      "expiresIn": "1h"
+    }
+  }
+  
